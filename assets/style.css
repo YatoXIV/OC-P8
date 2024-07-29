@@ -90,9 +90,9 @@ body {
 	font-size: 14px;
 }
 
-#gallery {
+/* #gallery { */
 	/*	min-height: 100vh; */
-}
+/* } */
 .title{
 	text-align: center;
 	padding-block: 2em;
@@ -100,10 +100,15 @@ body {
 .gallery .nav {
 	justify-content: center;
 }
-.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+/* .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
 	color: #fff;
 	background-color: #BEB45A;
 	border-radius:0 ;
+} */
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    color: #fff; /* Texte blanc pour un contraste élevé */
+    background-color: #1C6474; /* Bleu foncé déjà utilisé sur votre site */
+    border-radius: 0.25rem; /* Conservez le design arrondi de vos boutons */
 }
 .nav-pills .nav-link {
 	color: #000
