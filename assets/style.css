@@ -149,6 +149,11 @@ body {
 	font-size: 24px;
 }
 
+.carousel-control-next, .carousel-control-prev /*, .carousel-indicators */ {
+    filter: invert(100%);
+}
+
+
 .quote {
 	font-family: 'Spectral';
 	font-style: italic;
